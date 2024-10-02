@@ -13,6 +13,9 @@ using namespace std;
 struct nodo_empresa{
 	// aquí deben figurar los campos que usted considere necesarios para manipular el organigrama.
 	// Se deberan crear nuevos modulos e incluirlos.
+	//Ira un puntero a persona?
+	// dentro de la emrpesa tiene que haber cargos, es un nuevo struct? Porque no existe que sea un emp->sig es raro.
+	//Pa mi va a ser un emp->cargo?persona?->sig o algo asi para iterar por los cargos. 
 };
 
 TipoRet CrearOrg(Empresa &e, Cadena cargo){
